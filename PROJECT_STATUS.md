@@ -30,10 +30,6 @@ Confusion matrix: TN=113, FP=27, FN=25, TP=35.
 
 These values are for the newly generated model in this package. They may differ slightly from model metrics reported during earlier project iterations because this package rebuilds the model using the explicit preprocessing/training implementation included here.
 
-## Not yet trained
-
-The optional signature CNN has a model definition, training script, and Streamlit inference page. It has **no trained weights** in this package because no labelled genuine/forged signature dataset was provided. The page clearly reports this rather than generating a fake verification score.
-
 ## UI test status
 
 Streamlit is listed in `requirements.txt`, but it was not installed in the packaging environment. The Streamlit source modules passed Python compilation; launch and browser interaction should be checked after installing requirements on the target machine.
