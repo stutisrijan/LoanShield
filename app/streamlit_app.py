@@ -49,7 +49,6 @@ with col1:
     st.markdown("**Customer Segmentation**\n\nExplore three descriptive K-Means customer groups.")
 with col2:
     st.markdown("**Model Evaluation**\n\nInspect held-out metrics, confusion matrix, ROC and precision-recall curves, plus cross-validation comparisons.")
-    st.markdown("**Document Verification**\n\nInspect the optional signature CNN module. Training requires labelled genuine/forged signature images.")
 
 st.divider()
 st.info(
