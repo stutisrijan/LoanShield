@@ -1,0 +1,17 @@
+{
+  "algorithm": "KMeans",
+  "k": 3,
+  "random_state": 42,
+  "features": [
+    "duration",
+    "credit_amount",
+    "installment_rate",
+    "residence_since",
+    "age",
+    "existing_credits",
+    "num_dependents"
+  ],
+  "silhouette": 0.25423745770297773,
+  "davies_bouldin": 1.5852802840357532,
+  "warning": "Clusters are descriptive groups, not lending risk grades or causal categories."
+}
